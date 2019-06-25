@@ -1,0 +1,58 @@
+body { 
+    background-image: url(../src/images/bg11.jpg);
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+a{
+  color: black;
+  font-weight: bolder;
+
+}
+
+
+.nav7 {
+  
+    max-width: 100%;
+    padding: 02%;
+    margin-top: 03%;
+    text-align: center;
+    
+}
+
+.nav-01{
+  align-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+
+
+.nav-lonk{
+  padding: 4%;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 1.5vw;
+  color:black;
+}
+
+
+
+.contentTool {
+  margin-top: 10%;
+
+  width: 50vw;
+  height: 50%;
+  align-content: center;
+  text-align: center;
+}
+html {
+  font-size: 1rem;
+}
