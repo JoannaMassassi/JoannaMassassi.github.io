@@ -7,30 +7,124 @@
     
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap" rel="stylesheet">
     </head>
     <body>
-      <header class="nav7">
-            <a class="nav-lonk" href="#" onclick="home()">Home</a>
-                       
-                        
-            <a class="nav-lonk" href="#" onclick="aboutMe()">About Me</a>
-       
-          
-            <a class="nav-lonk" href="#">Portfolio</a>
-          
-          
-            <a class="nav-lonk " href="#">Let's talk!</a>
-      </header>  
-            <div class="contentDiv">
-    
-    
+        
+        <div id="index-banner" class="parallax-container" style="height:300px">
+          <div class="container">
+            <h1 class="center titlePage">Joanna Aréchiga</h1>
+            <div class="row center">
+              <h4 class="header col s12 light">¡Welcome to my site!</h5>
+            </div>
+          </div>
+          <div class="parallax"><img src="images/colors.jpg" alt="">
+            </div>
+        </div>
+         <div class="container colorOpacity">
+                <div class="section right-align">
+                  <div class="row">
+                    <div class="col s8 m8 center">
+                      <h4 class="titlePage">About me </h4>
+                      <p class="left-align">I'm a Front-End developer based at Guadalajara, Jalisco.
+                         I started this journey in January 2019 and Web development had help me to discover that I like to solve problems and also work in teams.
+                        I believe in Girl power and I think it's what the T.I. sector needs. 
+                        My favorite hobbies are playing instruments, travel and petting dogs.
+                        I would love to help you with your projects and find the best solutions to your websites.</p>
+                    </div>
+                    <div class="col s4 m4 right-align">
+                      <img src="images/laptop.png" style="height:200px" >
+                    </div>
+                  </div>
                 </div>
+              </div>
+              
+              <div class="parallax-container valign-wrapper" style="height:400px">
+                      <div class="container">
+                        <div class="row center">
+                          <h3 class="white-text titlePage">A little taste of my Projects</h3>
+                        </div>
+                    </div>
+                    <div class="parallax"><img src="images/confetti.jpg"></div>
+                  </div>
+                 
+                  <div class="container">
+                        <div class="section">
+                    
+                          <div class="row">
+                            <div class="col s12 m4">
+                              <div class="icon-block">
+                                <h2 class="center brown-text"><i class="material-icons">Poketoon</i></h2>
+                                <img class="responsive-img imgStyle" src="images/poketoon.jpg">
+                                <p class="">This site shows filtered Pokemon info that can be helpfull for those who play Pokemon Go. </p>
+                              </div>
+                            </div>
+                    
+                            <div class="col s12 m4">
+                              <div class="icon-block">
+                                <h2 class="center brown-text"><i class="material-icons">Colombe</i></h2>
+                                <img class="responsive-img imgStyle" src="images/colombe.jpg">
+                                <p class="">WebApp that can be used to register people's asisstance to a Co-working with a picture.</p>
+
+                              </div>
+                            </div>
+                    
+                            <div class="col s12 m4">
+                              <div class="icon-block">
+                                <h2 class="center brown-text"><i class="material-icons">BuscaVerde</i></h2>
+                    
+                                <p class="">Social Network to people in Guadalajara that is interested in find specific vegan products in the city.</p>
+                              </div>
+                            </div>
+                          </div>
+                    
+                        </div>
+                      </div>
+
+                  <div class="parallax-container" style="height:400px">
+                        <div class="section no-pad-bot">
+                          <div class="container">
+                            <div class="row center">
+                              <h5 class="header col s12 light"></h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="parallax"><img src="images/colors.jpg" alt=""></div>
+                      </div>
+                      
+                   
+        
+          <footer class>
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12 m12">
+                  <h5 class="black-text titlePage ">Hit me up!</h5>
+                  <ul>
+                    <li>
+                        <a class="white-text" href="https://github.com/JoannaMassassi"><img src="/src/images/GitHub-Mark-32px.png"></a>
+                        <a class="white-text" href="https://www.linkedin.com/in/joanna-arechigadev/"><img class="image" src="/src/images/LI-In-Bug.png"></a>
+                        <a href = "mailto: jarechiga.dev@gmail.com"><img class="image" src="https://img.icons8.com/windows/32/000000/gmail.png"></a>
+                        <a> <img class="image" src="images/Slack RGB.png"></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.parallax');
+          var instances = M.Parallax.init(elems);});</script>
+ <script>
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.materialboxed');
+  var instances = M.Materialbox.init(elems, options);</script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>    <script type="text/javascript" src="template1.js"></script>
+          
     </body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="template1.js"></script>
     
 </html>
